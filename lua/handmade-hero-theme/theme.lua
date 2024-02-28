@@ -64,6 +64,7 @@ function M.setup(config)
     VertSplit = { fg = c.margin_hover },
     Folded = { fg = c.comment },
     IncSearch = { fg = c.keyword, bg = c.margin_active },
+    CurSearch = { fg = c.keyword, bg = c.margin_active },
     LineNr = { fg = c.comment },
     MatchParen = { bg = c.base, style = "underline" },
     NonText = { fg = c.comment },
@@ -148,7 +149,7 @@ function M.setup(config)
     ["@variable.javascript"] = { fg = c.text_default },
     ["@tag.attribute"] = { fg = c.base },
 
-    ["@lsp.type.class"] = { fg = c.type },
+    ["@lsp.type.class"] = { fg = c.class },
     ["@lsp.type.decorator"] = { fg = c.operator },
     ["@lsp.type.enum"] = { fg = c.operator },
     ["@lsp.type.enumMember"] = { fg = c.operator },
